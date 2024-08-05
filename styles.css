@@ -1,0 +1,155 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-container {
+    text-align: center;
+    margin-bottom: 20px;
+    
+
+}
+
+.header h1 {
+    font-size: 45px;
+    text-decoration:underline;
+    cursor: pointer;
+
+}
+
+.header p {
+    font-size: 20px;
+    color: #6a6a6a;
+}
+
+.image img {
+    width: 60%;
+    height: 70vh;
+    border-radius: 30%;
+}
+
+.description {
+    padding: 20px;
+}
+
+.description p {
+    text-align: justify;
+
+}
+
+.ingredients {
+    padding: 20px;
+}
+
+.ingredients h2 {
+    font-size: 2em;
+}
+
+.ingredients-list {
+    list-style-image: url('bx-star.svg');
+}
+
+.directions-list {
+    list-style-type: lower-roman;
+}
+
+.recipe-links {
+    padding: 20px;
+}
+
+.recipe-links h3 {
+    font-size: 1.5em;
+}
+
+.recipe-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recipe-links li {
+    margin-bottom: 10px;
+}
+
+.recipe-links a {
+    color: #000;
+    text-decoration: none;
+}
+
+.recipe-links a:hover {
+    text-decoration: underline;
+    color: brown;
+    transition: color 0.3s ease;
+
+}
+
+.conclusion {
+    margin-top: 40px;
+    font-weight: italic;
+
+    
+}
+
+.conclusion p {
+    font-size: 1em;
+}
+
+.label {
+    margin-top: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.label input[type=submit] {
+    padding: 10px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 20px;
+    
+
+}
+
+footer {
+    position: relative;
+    padding: 20px;
+    text-align: center; /* Center-align content */
+    margin: 10px;
+    height:20vh;
+    display: flex;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #6a6a6a;
+    flex-direction: column;
+}
+
+.footer-icons i {
+    font-size: 2em;
+    margin: 0 10px;
+}
+
+.footer-icons i:hover {
+    color: #FF0000;
+    cursor: pointer;
+}
+
+footer a {
+    color: #000;
+}
+
+/* Extra Credit CSS */
+p span {
+    font-style: italic;
+}
+
+p span:last-of-type {
+    text-decoration: underline;
+}
+
+.first-span {
+    font-style: normal;
+    color: red;
+}
